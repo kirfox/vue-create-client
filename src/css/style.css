@@ -1,0 +1,110 @@
+body{
+  background-color: #3FB0C5;
+}
+.container{
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.title{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  font-weight: 500;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: white;
+}
+.personal-info{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.personal-info__column1{
+  display: flex;
+  flex-direction: column;
+}
+.personal-info__column2{
+  display: flex;
+  flex-direction: column;
+}
+.personal-info__column3{
+  display: flex;
+  flex-direction: column;
+}
+.address-info{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.document-info{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+span{
+ margin-top:10px;
+}
+label{
+  margin-top:10px;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  color: white;
+  font-weight: 400;
+}
+.container__text {
+  margin-top:10px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 160px;
+  color: black;
+  font-size: 16px;
+  
+}
+.container__text:active, .container__text:focus {
+  outline: none;
+}
+
+select{
+  margin-top:10px;
+  border: 1px solid black;
+  font-size: 16px;
+}
+select:active, select:focus {
+  outline: none;
+}
+#clients{
+  width: 180px;
+}
+#sex, #doctor {
+  height: 38px;
+  width: 182px;
+}
+#document {
+  height: 38px;
+  width: 182px;
+}
+option{
+  padding: 10px;
+}
+
+.form_radio{
+  margin-top: 10px;
+}
+.container-radio{
+  margin-top: 10px;
+}
+.container-checkbox{
+  margin-top: 10px;
+}
+.container-checkbox > p{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.required{
+  color: red;
+}
